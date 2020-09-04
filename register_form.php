@@ -8,7 +8,7 @@ include_once('header.php');
 </style>
 <div class="container">
 	<div class="final_message">
-		
+
 	</div>
 	<div class="row">
 		<div class="col-lg-11">
@@ -96,13 +96,13 @@ include_once('header.php');
 
 		<div class="form-group">
 			<label>Profile Image</label>
-			<input type="file" name="profile_image" class="form-control">
+			<input type="file" name="profile_image" class="form-control" accept="image/x-png,image/gif,image/jpeg">
 			<span style="color:red;" id="profile_image"></span>
 		</div>
 
 		<div class="form-group">
 			<label>Driving Licence</label>
-			<input type="file" name="driving_licence" class="form-control">
+			<input type="file" name="driving_licence" class="form-control" accept="image/x-png,image/gif,image/jpeg">
 			<span style="color:red;" id="driving_licence"></span>
 		</div>
 
